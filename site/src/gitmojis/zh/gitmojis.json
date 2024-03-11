@@ -5,7 +5,7 @@
       "emoji": "🎨",
       "entity": "&#x1f3a8;",
       "code": ":art:",
-      "description": "结构改进 / 格式化代码。",
+      "description": "结构改善 / 格式化代码。",
       "name": "art",
       "semver": null
     },
@@ -21,7 +21,7 @@
       "emoji": "🔥",
       "entity": "&#x1f525;",
       "code": ":fire:",
-      "description": "删除代码或者文件。",
+      "description": "移除代码或者文件。",
       "name": "fire",
       "semver": null
     },
@@ -29,7 +29,7 @@
       "emoji": "🐛",
       "entity": "&#x1f41b;",
       "code": ":bug:",
-      "description": "修了一个 BUG。",
+      "description": "修复问题。",
       "name": "bug",
       "semver": "patch"
     },
@@ -53,7 +53,7 @@
       "emoji": "📝",
       "entity": "&#x1f4dd;",
       "code": ":memo:",
-      "description": "写文档。",
+      "description": "添加或者更新文档。",
       "name": "memo",
       "semver": null
     },
@@ -69,7 +69,7 @@
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
-      "description": "更新界面与样式文件。",
+      "description": "添加或者更新界面和样式文件。",
       "name": "lipstick",
       "semver": "patch"
     },
@@ -77,7 +77,7 @@
       "emoji": "🎉",
       "entity": "&#127881;",
       "code": ":tada:",
-      "description": "创世提交。",
+      "description": "启动新项目。",
       "name": "tada",
       "semver": null
     },
@@ -85,7 +85,7 @@
       "emoji": "✅",
       "entity": "&#x2705;",
       "code": ":white_check_mark:",
-      "description": "更新测试。",
+      "description": "添加、更新或者通过测试。",
       "name": "white-check-mark",
       "semver": null
     },
@@ -93,7 +93,7 @@
       "emoji": "🔒️",
       "entity": "&#x1f512;",
       "code": ":lock:",
-      "description": "修复安全问题。",
+      "description": "修复安全或隐私问题。",
       "name": "lock",
       "semver": "patch"
     },
@@ -101,7 +101,7 @@
       "emoji": "🔐",
       "entity": "&#x1f510;",
       "code": ":closed_lock_with_key:",
-      "description": "Add or update secrets.",
+      "description": "添加或者更新密钥。",
       "name": "closed-lock-with-key",
       "semver": null
     },
@@ -109,7 +109,7 @@
       "emoji": "🔖",
       "entity": "&#x1f516;",
       "code": ":bookmark:",
-      "description": "发布 / 版本标签",
+      "description": "发布 / 版本标签。",
       "name": "bookmark",
       "semver": null
     },
@@ -117,7 +117,7 @@
       "emoji": "🚨",
       "entity": "&#x1f6a8;",
       "code": ":rotating_light:",
-      "description": "消除 linter 警告。",
+      "description": "消除编译器或者代码检查工具警告。",
       "name": "rotating-light",
       "semver": null
     },
@@ -125,7 +125,7 @@
       "emoji": "🚧",
       "entity": "&#x1f6a7;",
       "code": ":construction:",
-      "description": "进行中。",
+      "description": "正在进行中。",
       "name": "construction",
       "semver": null
     },
@@ -165,7 +165,7 @@
       "emoji": "👷",
       "entity": "&#x1f477;",
       "code": ":construction_worker:",
-      "description": "添加持续集成构建系统。",
+      "description": "添加或者添加持续集成构建系统。",
       "name": "construction-worker",
       "semver": null
     },
@@ -173,7 +173,7 @@
       "emoji": "📈",
 "entity": "&#x1F4C8;",
       "code": ":chart_with_upwards_trend:",
-      "description": "添加分析或者跟踪代码。",
+      "description": "添加或者更新分析或跟踪代码。",
       "name": "chart-with-upwards-trend",
       "semver": "patch"
     },
@@ -181,7 +181,7 @@
       "emoji": "♻️",
       "entity": "&#x267b;",
       "code": ":recycle:",
-      "description": "代码重构。",
+      "description": "重构代码。",
       "name": "recycle",
       "semver": null
     },
@@ -189,7 +189,7 @@
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
-      "description": "添加依赖。",
+      "description": "添加一项依赖。",
       "name": "heavy-plus-sign",
       "semver": "patch"
     },
@@ -197,7 +197,7 @@
       "emoji": "➖",
       "entity": "&#10134;",
       "code": ":heavy_minus_sign:",
-      "description": "删除依赖。",
+      "description": "移除一项依赖。",
       "name": "heavy-minus-sign",
       "semver": "patch"
     },
@@ -205,7 +205,7 @@
       "emoji": "🔧",
       "entity": "&#x1f527;",
       "code": ":wrench:",
-      "description": "改变配置文件。",
+      "description": "添加或者更新配置文件。",
       "name": "wrench",
       "semver": "patch"
     },
@@ -213,7 +213,7 @@
       "emoji": "🔨",
       "entity": "&#128296;",
       "code": ":hammer:",
-      "description": "Add or update development scripts.",
+      "description": "添加或者更新部署脚本。",
       "name": "hammer",
       "semver": null
     },
@@ -221,7 +221,7 @@
       "emoji": "🌐",
       "entity": "&#127760;",
       "code": ":globe_with_meridians:",
-      "description": "国际化与本地化。",
+      "description": "国际化和本地化。",
       "name": "globe-with-meridians",
       "semver": "patch"
     },
@@ -237,7 +237,7 @@
       "emoji": "💩",
       "entity": "&#58613;",
       "code": ":poop:",
-      "description": "写需要改进的坏代码。",
+      "description": "编写需要改善的糟糕代码。",
       "name": "poop",
       "semver": null
     },
@@ -245,7 +245,7 @@
       "emoji": "⏪️",
       "entity": "&#9194;",
       "code": ":rewind:",
-      "description": "回滚改动。",
+      "description": "回滚变动。",
       "name": "rewind",
       "semver": "patch"
     },
@@ -261,7 +261,7 @@
       "emoji": "📦️",
       "entity": "&#1F4E6;",
       "code": ":package:",
-      "description": "更新编译后的文件或者包。",
+      "description": "添加或者更新已编译文件或者包。",
       "name": "package",
       "semver": "patch"
     },
@@ -277,7 +277,7 @@
       "emoji": "🚚",
       "entity": "&#1F69A;",
       "code": ":truck:",
-      "description": "文件移动或者重命名。",
+      "description": "移动或者重命名资源项（例如文件、路径、路由）。",
       "name": "truck",
       "semver": null
     },
@@ -285,7 +285,7 @@
       "emoji": "📄",
       "entity": "&#1F4C4;",
       "code": ":page_facing_up:",
-      "description": "添加或者更新许可。",
+      "description": "添加或者更新许可证。",
       "name": "page-facing-up",
       "semver": null
     },
@@ -293,7 +293,7 @@
       "emoji": "💥",
       "entity": "&#x1f4a5;",
       "code": ":boom:",
-      "description": "引入破坏性的改动。",
+      "description": "引入破坏性的变动。",
       "name": "boom",
       "semver": "major"
     },
@@ -309,7 +309,7 @@
       "emoji": "♿️",
       "entity": "&#9855;",
       "code": ":wheelchair:",
-      "description": "改进可访问性。",
+      "description": "改善可访问性。",
       "name": "wheelchair",
       "semver": "patch"
     },
@@ -317,7 +317,7 @@
       "emoji": "💡",
       "entity": "&#128161;",
       "code": ":bulb:",
-      "description": "给源代码加文档。",
+      "description": "在源代码中添加或者更新注释。",
       "name": "bulb",
       "semver": null
     },
@@ -325,7 +325,7 @@
       "emoji": "🍻",
       "entity": "&#x1f37b;",
       "code": ":beers:",
-      "description": "醉写代码。",
+      "description": "醉酒般编写代码。",
       "name": "beers",
       "semver": null
     },
@@ -333,7 +333,7 @@
       "emoji": "💬",
       "entity": "&#128172;",
       "code": ":speech_balloon:",
-      "description": "更新文本和字面。",
+      "description": "添加或者更新文本和字面量。",
       "name": "speech-balloon",
       "semver": "patch"
     },
@@ -341,7 +341,7 @@
       "emoji": "🗃️",
       "entity": "&#128451;",
       "code": ":card_file_box:",
-      "description": "执行数据库相关的改动。",
+      "description": "执行数据库相关的变动。",
       "name": "card-file-box",
       "semver": "patch"
     },
@@ -349,7 +349,7 @@
       "emoji": "🔊",
       "entity": "&#128266;",
       "code": ":loud_sound:",
-      "description": "添加日志。",
+      "description": "添加或者更新日志。",
       "name": "loud-sound",
       "semver": null
     },
@@ -357,7 +357,7 @@
       "emoji": "🔇",
       "entity": "&#128263;",
       "code": ":mute:",
-      "description": "删除日志。",
+      "description": "移除日志。",
       "name": "mute",
       "semver": null
     },
@@ -365,7 +365,7 @@
       "emoji": "👥",
       "entity": "&#128101;",
       "code": ":busts_in_silhouette:",
-      "description": "添加贡献者（们）。",
+      "description": "添加或者更新贡献者（们）。",
       "name": "busts-in-silhouette",
       "semver": null
     },
@@ -373,7 +373,7 @@
       "emoji": "🚸",
       "entity": "&#128696;",
       "code": ":children_crossing:",
-      "description": "改进用户体验 / 可用性。",
+      "description": "改善用户体验 / 可用性。",
       "name": "children-crossing",
       "semver": "patch"
     },
@@ -381,7 +381,7 @@
       "emoji": "🏗️",
       "entity": "&#1f3d7;",
       "code": ":building_construction:",
-      "description": "架构改动。",
+      "description": "进行架构变动。",
       "name": "building-construction",
       "semver": null
     },
@@ -389,7 +389,7 @@
       "emoji": "📱",
       "entity": "&#128241;",
       "code": ":iphone:",
-      "description": "响应性设计相关。",
+      "description": "进行响应式设计工作。",
       "name": "iphone",
       "semver": "patch"
     },
@@ -405,7 +405,7 @@
       "emoji": "🥚",
       "entity": "&#129370;",
       "code": ":egg:",
-      "description": "添加一个彩蛋。",
+      "description": "添加或者更新一个彩蛋。",
       "name": "egg",
       "semver": "patch"
     },
@@ -429,7 +429,7 @@
       "emoji": "⚗️",
       "entity": "&#x2697;",
       "code": ":alembic:",
-      "description": "研究新事物。",
+      "description": "执行试验。",
       "name": "alembic",
       "semver": "patch"
     },
@@ -437,7 +437,7 @@
       "emoji": "🔍️",
       "entity": "&#128269;",
       "code": ":mag:",
-      "description": "改进搜索引擎优化。",
+      "description": "改善搜索引擎优化。",
       "name": "mag",
       "semver": "patch"
     },
@@ -445,15 +445,15 @@
       "emoji": "🏷️",
       "entity": "&#127991;",
       "code": ":label:",
-      "description": "添加或者更新类型（Flow, TypeScript）。",
-      "name": "label"
+      "description": "添加或者更新类型。",
+      "name": "label",
       "semver": "patch"
     },
     {
       "emoji": "🌱",
       "entity": "&#127793;",
       "code": ":seedling:",
-      "description": "Add or update seed files.",
+      "description": "添加或者更新种子文件。",
       "name": "seedling",
       "semver": null
     },
@@ -461,7 +461,7 @@
       "emoji": "🚩",
       "entity": "&#x1F6A9;",
       "code": ":triangular_flag_on_post:",
-      "description": "Add, update, or remove feature flags.",
+      "description": "添加、更新或者移除特性标记。",
       "name": "triangular-flag-on-post",
       "semver": "patch"
     },
@@ -469,7 +469,7 @@
       "emoji": "🥅",
       "entity": "&#x1F945;",
       "code": ":goal_net:",
-      "description": "Catch errors.",
+      "description": "捕获错误。",
       "name": "goal-net",
       "semver": "patch"
     },
@@ -477,7 +477,7 @@
       "emoji": "💫",
       "entity": "&#x1f4ab;",
       "code": ":dizzy:",
-      "description": "Add or update animations and transitions.",
+      "description": "添加或者更新动画和过渡效果。",
       "name": "dizzy",
       "semver": "patch"
     },
@@ -485,7 +485,7 @@
       "emoji": "🗑️",
       "entity": "&#x1F5D1;",
       "code": ":wastebasket:",
-      "description": "Deprecate code that needs to be cleaned up.",
+      "description": "废弃需要清理的代码。",
       "name": "wastebasket",
       "semver": "patch"
     },
@@ -493,7 +493,7 @@
       "emoji": "🛂",
       "entity": "&#x1F6C2;",
       "code": ":passport_control:",
-      "description": "Work on code related to authorization, roles and permissions.",
+      "description": "处理与授权、角色和权限相关的代码。",
       "name": "passport-control",
       "semver": "patch"
     },
@@ -501,7 +501,7 @@
       "emoji": "🩹",
       "entity": "&#x1FA79;",
       "code": ":adhesive_bandage:",
-      "description": "Simple fix for a non-critical issue.",
+      "description": "对非关键问题的简单修复。",
       "name": "adhesive-bandage",
       "semver": "patch"
     },
@@ -509,7 +509,7 @@
       "emoji": "🧐",
       "entity": "&#x1F9D0;",
       "code": ":monocle_face:",
-      "description": "Data exploration/inspection.",
+      "description": "数据探索 / 检查。",
       "name": "monocle-face",
       "semver": null
     },
@@ -517,7 +517,7 @@
       "emoji": "⚰️",
       "entity": "&#x26B0;",
       "code": ":coffin:",
-      "description": "Remove dead code.",
+      "description": "移除死代码。",
       "name": "coffin",
       "semver": null
     },
@@ -525,7 +525,7 @@
       "emoji": "🧪",
       "entity": "&#x1F9EA;",
       "code": ":test_tube:",
-      "description": "Add a failing test.",
+      "description": "添加一个失败的测试。",
       "name": "test-tube",
       "semver": null
     },
@@ -533,7 +533,7 @@
       "emoji": "👔",
       "entity": "&#128084;",
       "code": ":necktie:",
-      "description": "Add or update business logic.",
+      "description": "添加或更新业务逻辑。",
       "name": "necktie",
       "semver": "patch"
     },
@@ -541,7 +541,7 @@
       "emoji": "🩺",
       "entity": "&#x1FA7A;",
       "code": ":stethoscope:",
-      "description": "Add or update healthcheck.",
+      "description": "添加或更新健康检查。",
       "name": "stethoscope",
       "semver": null
     },
@@ -549,7 +549,7 @@
       "emoji": "🧱",
       "entity": "&#x1f9f1;",
       "code": ":bricks:",
-      "description": "Infrastructure related changes.",
+      "description": "基础设施相关的变动。",
       "name": "bricks",
       "semver": null
     },
@@ -557,7 +557,7 @@
       "emoji": "🧑‍💻",
       "entity": "&#129489;&#8205;&#128187;",
       "code": ":technologist:",
-      "description": "Improve developer experience.",
+      "description": "改善开发者体验。",
       "name": "technologist",
       "semver": null
     },
@@ -565,7 +565,7 @@
       "emoji": "💸",
       "entity": "&#x1F4B8;",
       "code": ":money_with_wings:",
-      "description": "Add sponsorships or money related infrastructure.",
+      "description": "添加赞助或与金钱相关的基础设施。",
       "name": "money-with-wings",
       "semver": null
     },
@@ -573,7 +573,7 @@
       "emoji": "🧵",
       "entity": "&#x1F9F5;",
       "code": ":thread:",
-      "description": "Add or update code related to multithreading or concurrency.",
+      "description": "添加或者更新与多线程或并发相关的代码。",
       "name": "thread",
       "semver": null
     },
@@ -581,7 +581,7 @@
       "emoji": "🦺",
       "entity": "&#x1F9BA;",
       "code": ":safety_vest:",
-      "description": "Add or update code related to validation.",
+      "description": "添加或者更新与验证相关的代码。",
       "name": "safety-vest",
       "semver": null
     }
