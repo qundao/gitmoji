@@ -5,6 +5,7 @@ import GitmojiList from 'src/components/GitmojiList'
 // import CarbonAd from 'src/components/CarbonAd'
 // import SEO from 'src/components/SEO'
 import { useLanguage } from 'src/contexts/LanguageContext';
+import { defaultLanguage } from 'src/utils/languages';
 
 const Home = () => {
   const { lang } = useLanguage();
@@ -13,7 +14,8 @@ const Home = () => {
   useEffect(() => {
     async function loadGitmojis() {
       try {
-        const module = await import(`src/gitmojis/${lang === 'en' ? '' : `${lang}/`}gitmojis.json`);
+        // only literal
+        const module = await import(`data/${lang === defaultLanguage ? '' : `${lang}/`}gitmojis.json`);
         setGitmojis(module.gitmojis);
       } catch (error) {
         console.error('Failed to load gitmojis:', error);
