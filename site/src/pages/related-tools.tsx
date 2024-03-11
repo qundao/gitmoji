@@ -1,5 +1,5 @@
-import CarbonAd from 'src/components/CarbonAd'
-import SEO from 'src/components/SEO'
+// import CarbonAd from 'src/components/CarbonAd'
+// import SEO from 'src/components/SEO'
 
 const tools = [
   {
@@ -94,9 +94,9 @@ const tools = [
 
 const RelatedTools = () => (
   <>
-    <SEO pageTitle="Related tools" pageUrl="/related-tools" />
+    {/* <SEO pageTitle="Related tools" pageUrl="/related-tools" /> */}
     <main>
-      <CarbonAd />
+      {/* <CarbonAd /> */}
       <section>
         <h1>Related tools</h1>
 

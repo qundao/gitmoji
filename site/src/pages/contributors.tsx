@@ -1,8 +1,8 @@
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
+// import { GetStaticProps, InferGetStaticPropsType } from 'next'
 
-import ContributorsList from 'src/components/ContributorsList'
-import CarbonAd from 'src/components/CarbonAd'
-import SEO from 'src/components/SEO'
+// import ContributorsList from 'src/components/ContributorsList'
+// import CarbonAd from 'src/components/CarbonAd'
+// import SEO from 'src/components/SEO'
 
 type Contributor = {
   avatar: string
@@ -17,7 +17,7 @@ const Contributors = (
     {/* <SEO pageTitle="Contributors" pageUrl="/contributors" /> */}
 
     <main>
-      <CarbonAd />
+      {/* <CarbonAd /> */}
       <section>
         <h1>Contributors</h1>
 
