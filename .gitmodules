@@ -1,3 +1,6 @@
 [submodule "gitmoji"]
 	path = gitmoji
 	url = https://github.com/carloscuesta/gitmoji.git
+[submodule "gitmoji-zh"]
+	path = gitmoji-zh
+	url = https://github.com/Jeff-Tian/gitmoji.git
