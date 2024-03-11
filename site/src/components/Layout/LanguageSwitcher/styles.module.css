@@ -1,0 +1,50 @@
+.languageSwitcher {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 1;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  width: 120px;
+}
+
+.languageSwitcher span:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 0.5rem solid transparent;
+  border-top-color: var(--textInPrimary);
+  margin-left: 1px;
+  vertical-align: middle;
+}
+
+.languageToggle {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.languageSwitcher select {
+  appearance: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--cardShadow);
+  border-radius: 4px;
+  background-color: var(--cardBackground);
+  color: var(--textInPrimary);
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+/* 
+.languageSwitcher select:hover {
+  border-color:var(--cardText);
+}
+
+.languageSwitcher select:focus {
+  border-color: var(--secondary);
+} */
