@@ -14,9 +14,9 @@ const Header = (props: Props) => (
       <Button
         icon="star"
         link="https://github.com/carloscuesta/gitmoji"
-        text="GitHub"
+        text="GitHub(Carlos Cuesta)"
       />
-      <Button
+      {/* <Button
         icon="twitter-x"
         link={
           'https://twitter.com/intent/tweet?text=gitmoji' +
@@ -26,6 +26,11 @@ const Header = (props: Props) => (
         }
         target="_blank"
         text="Share"
+      /> */}
+      <Button
+        icon="git"
+        link="https://github.com/hantang/wayback-gitmoji"
+        text="GitHub(hantang)"
       />
     </div>
   </header>

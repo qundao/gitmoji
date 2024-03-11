@@ -26,7 +26,7 @@ const Home = () => {
       <main>
         <CarbonAd />
         <GitmojiList gitmojis={gitmojis} />
-        <Toaster position="top-left" />
+        {/* <Toaster position="top-left" /> */}
       </main>
     </>
   );

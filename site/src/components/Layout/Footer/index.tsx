@@ -16,8 +16,9 @@ const Footer = () => (
         <div className={`col-sm-6 ${styles.footerNav}`}>
           <nav>
             <Link href="/about">About</Link>
+            <Link href="/specification">Specification</Link>
             <Link href="/contributors">Contributors</Link>
-            <a href="https://github.com/carloscuesta/gitmoji">GitHub</a>
+            <Link href="/related-tools">Related tools</Link>
           </nav>
         </div>
       </div>

@@ -8,7 +8,7 @@ type Props = { children: JSX.Element[] | JSX.Element }
 const Layout = (props: Props) => (
   <>
     <IconDefinitions />
-    <Hamburger />
+    {/* <Hamburger /> */}
     <Header withHeadline />
     <main className="wrap">{props.children}</main>
     <Footer />
