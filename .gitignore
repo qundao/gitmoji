@@ -18,8 +18,8 @@ out/
 
 # production
 build
-public/
-!public/static
+public/*
+!public/static/*
 *.xml
 
 # debug
