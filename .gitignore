@@ -9,17 +9,17 @@ node_modules/
 !/.yarn/sdks
 
 # testing
-/coverage
+coverage
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 .vercel
 
 # production
-/build
-/public/*
-!/public/static
+build
+public/*
+!public/static
 *.xml
 
 # debug
