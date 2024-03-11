@@ -26,7 +26,7 @@ jobs:
         with:
           version: 8
       - name: Build Site
-        run: pnpm run build
+        run: cd site && pnpm install && pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
