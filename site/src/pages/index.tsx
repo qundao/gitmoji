@@ -1,32 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { Toaster } from 'react-hot-toast'
-// import { gitmojis } from 'gitmojis'
 
 import GitmojiList from 'src/components/GitmojiList'
 import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'
-import LanguageSwitcher from 'src/components/LanguageSwitcher';
+import { useLanguage } from 'src/contexts/LanguageContext';
 
 const Home = () => {
+  const { lang } = useLanguage();
   const [gitmojis, setGitmojis] = useState([]);
 
-  const loadGitmojis = async (lang = 'en') => {
-    const gitmojisModule = await import(
-      `src/gitmojis/${lang === 'en' ? '' : `${lang}/`}gitmojis.json`
-    );
-    setGitmojis(gitmojisModule.gitmojis);
-  };
-
-  useEffect(() => {loadGitmojis();}, []);
+  useEffect(() => {
+    async function loadGitmojis() {
+      try {
+        const module = await import(`src/gitmojis/${lang === 'en' ? '' : `${lang}/`}gitmojis.json`);
+        setGitmojis(module.gitmojis); // 注意这里
+      } catch (error) {
+        console.error('Failed to load gitmojis:', error);
+      }
+    }
+    loadGitmojis();
+  }, [lang]);
 
   return (
     <>
       <SEO />
-      <LanguageSwitcher onSwitch={(lang) => loadGitmojis(lang)} />
       <main>
         <CarbonAd />
         <GitmojiList gitmojis={gitmojis} />
-        {/* <Toaster position="top-left" /> */}
+        <Toaster position="top-left" />
       </main>
     </>
   );

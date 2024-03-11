@@ -1,7 +1,8 @@
 import { IconDefinitions } from 'src/components/Icon'
 import Header from './Header'
-import Hamburger from './Hamburger'
+// import Hamburger from './Hamburger'
 import Footer from './Footer'
+import LanguageSwitcher from './LanguageSwitcher';
 
 type Props = { children: JSX.Element[] | JSX.Element }
 
@@ -9,6 +10,7 @@ const Layout = (props: Props) => (
   <>
     <IconDefinitions />
     {/* <Hamburger /> */}
+    <LanguageSwitcher />
     <Header withHeadline />
     <main className="wrap">{props.children}</main>
     <Footer />
