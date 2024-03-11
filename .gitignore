@@ -46,6 +46,7 @@ cache/
 pnpm-global
 yarn.lock
 package-lock.json
+pnpm-lock.yaml
 
 # python
 __pycache__/
