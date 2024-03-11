@@ -1,9 +1,9 @@
 # web
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp/
 .pnp.js
-/.yarn/*
+.yarn/*
 !/.yarn/releases
 !/.yarn/plugins
 !/.yarn/sdks
