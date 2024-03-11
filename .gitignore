@@ -18,7 +18,7 @@ out/
 
 # production
 build
-public/*
+public/
 !public/static
 *.xml
 
