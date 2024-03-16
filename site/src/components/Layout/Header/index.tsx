@@ -29,8 +29,8 @@ const Header = (props: Props) => (
       /> */}
       <Button
         icon="git"
-        link="https://github.com/hantang/wayback-gitmoji"
-        text="GitHub(hantang)"
+        link="https://github.com/qundao/gitmoji"
+        text="GitHub(qundao)"
       />
     </div>
   </header>
