@@ -27,7 +27,7 @@ const SEO = (props: Props) => (
     <link rel="icon" type="image/png" sizes="32x32" href="/gitmoji/static/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/gitmoji/static/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/gitmoji/static/favicon-16x16.png" />
-    <link rel="manifest" href="/gitmoji/static/manifest.json" />
+    {/* <link rel="manifest" href="/gitmoji/static/manifest.json" /> */}
     <meta name="msapplication-TileColor" content="#FFDD67" />
     <meta name="msapplication-TileImage" content="/gitmoji/static/ms-icon-144x144.png" />
     <meta name="theme-color" content="#FFDD67" />
