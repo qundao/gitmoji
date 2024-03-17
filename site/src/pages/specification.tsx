@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
 // import CarbonAd from 'src/components/CarbonAd'
-// import SEO from 'src/components/SEO'
+import SEO from 'src/components/SEO'
 
 const Specification = () => (
   <>
-    {/* <SEO pageTitle="Specification" pageUrl="/about" /> */}
+    <SEO pageTitle="Specification" pageUrl="/about" />
     <main>
       {/* <CarbonAd /> */}
       <section>

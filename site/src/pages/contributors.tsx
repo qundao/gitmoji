@@ -2,7 +2,7 @@
 
 // import ContributorsList from 'src/components/ContributorsList'
 // import CarbonAd from 'src/components/CarbonAd'
-// import SEO from 'src/components/SEO'
+import SEO from 'src/components/SEO'
 
 type Contributor = {
   avatar: string
@@ -14,7 +14,7 @@ const Contributors = (
   // props: InferGetStaticPropsType<typeof getStaticProps>,
 ) => (
   <>
-    {/* <SEO pageTitle="Contributors" pageUrl="/contributors" /> */}
+    <SEO pageTitle="Contributors" pageUrl="/contributors" />
 
     <main>
       {/* <CarbonAd /> */}

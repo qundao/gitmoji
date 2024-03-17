@@ -3,7 +3,7 @@ import { Toaster } from 'react-hot-toast'
 
 import GitmojiList from 'src/components/GitmojiList'
 // import CarbonAd from 'src/components/CarbonAd'
-// import SEO from 'src/components/SEO'
+import SEO from 'src/components/SEO'
 import { useLanguage } from 'src/contexts/LanguageContext';
 import { defaultLanguage } from 'src/utils/languages';
 
@@ -26,7 +26,8 @@ const Home = () => {
 
   return (
     <>
-      {/* <SEO /> */}
+      <SEO />
+
       <main>
         {/* <CarbonAd /> */}
         <GitmojiList gitmojis={gitmojis} />
